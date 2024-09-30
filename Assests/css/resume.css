@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color:rgb(17,16,17);
+}
+.nav-parent{
+    width: 100%;
+    height:100px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.logo{
+    height:3vh;
+    margin-top:25px;
+    margin-left:30px;
+}
+.nav-lists{
+    width: 30%;
+    height: 20px;
+    display: flex;
+    justify-content:space-between;
+    padding: 20px 40px;
+    margin-top:20px;
+    
+}
+.nav-lists li{
+    list-style: none;
+}
+.li{
+    color:rgb(224,225,224);
+    font-size: larger;
+    text-decoration: none;
+}
+.topic{
+    text-align: center;
+    padding-top: 40px;
+    color: white;
+    margin-right:35px;
+}
+.heading{
+    text-align: center;
+    margin-top: 50px;
+    margin-right: 80px;
+    padding: 20px;
+}
+.heading h1,h4{
+    padding:10px;
+}
+.heading h4{
+    font-size:25px;
+    color: rgb(233, 236, 238);
+    font-family: sanserif;
+}
+.heading h1{
+    font-size: 55px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 600;
+    
+}
+.head{
+    margin-bottom: 50px;
+}
+.row1 h1,h3,p{
+    padding:15px;
+
+}
+.conatiner{
+   width: 95%;
+   display: flex;
+   
+}
+.child1{
+    width: 50%;
+    margin-left: 100px;
+    margin-top: 30px;
+    margin-right: 80px;
+    
+
+}
+.child2{
+    width: 50%;
+    margin-left: 150px;
+    margin-top:30px ;
+    
+    
+}
+.head1{
+    margin-left:22px;
+    margin-top: 25px;
+    color: white;
+    font-size: 40px;
+    font-family: sanserif;
+}
+.head2{
+    padding-bottom: 10px;
+    margin-top:22px ;
+    font-size: 40px;
+    font-family: sanserif;
+    color: white;
+
+}
+.row1{
+    border: 4px solid rgb(77, 161, 77);
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+.row2{
+    border: 4px solid rgb(77, 161, 77);
+    margin-bottom:20px ;
+    margin-top:20px ;
+}
+.row2 h1,h3,p{
+    padding: 18px;
+
+}
+.row1 p {
+    color: rgb(135, 134, 134);
+
+}
+.row1 h3{
+    color: rgb(135, 134, 134);
+}
+.row1 h1{
+    color: white;
+}
+.row2 h3,p{
+    color: rgb(135, 134, 134);
+
+}
+.row2 h1{
+    color: white;
+
+}
+.menu{
+    color: white;
+}

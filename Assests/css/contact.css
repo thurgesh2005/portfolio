@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color:rgb(17,16,17);
+}
+.nav-parent{
+    width: 100%;
+    height:100px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.logo{
+    height:3vh;
+    margin-top:25px;
+    margin-left:30px;
+}
+.nav-lists{
+    width: 30%;
+    height: 20px;
+    display: flex;
+    justify-content:space-between;
+    padding: 20px 40px;
+    margin-top:20px;
+    
+}
+.nav-lists li{
+    list-style: none;
+}
+.li{
+    color:rgb(224,225,224);
+    font-size: larger;
+    text-decoration: none;
+}
+.firstpart{
+    color: white;
+    margin-top: 30px;
+    text-align: center;
+
+
+
+}
+.firstpart p{
+    padding-top: 20px;
+    font-size: 20px;
+}
+.firstpart h1{
+    padding-top: 30px;
+    font-size: 40px;
+    color: #009e66;
+}
+.container{
+    height: 100px;
+    width: 50%;
+    margin-left: 140px;
+    padding-top: 220px;
+}
+.container h1{
+    color: #009e66;
+    padding-bottom: 20px;
+    font-family: sans-serif;
+
+}
+.container p{
+    color: rgb(222, 218, 218);
+    font-weight:50px;
+    font-size: larger;
+    font-family: sans-serif;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    width:60%;
+    height:50px;
+}
+.icons{
+    color: #009e66;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+
+    width:90%;
+    
+    
+}
+.icons h2{
+    padding: 30px;
+    font-size: 20px;
+    color: rgb(222, 218, 218);
+    font-family: sans-serif;
+    font-weight: 300;
+    cursor:pointer;
+}
+.icons span{
+    color: #009e66;
+    font-weight: bolder;
+    font-size: larger;
+    font-family: sans-serif;
+}
+.menu{
+    color: white;
+}
+
